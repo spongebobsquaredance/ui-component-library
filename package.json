@@ -1,7 +1,7 @@
 {
   "name": "ui-component-library",
   "version": "1.0.0",
-  "description": "Component library built with React Storybook",
+  "description": "Component library built with React and Storybook",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
