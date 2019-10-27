@@ -1,0 +1,25 @@
+{
+  "name": "ui-component-library",
+  "version": "1.0.0",
+  "description": "Component library built with React Storybook",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-cache"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Carrie MacDonald",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3"
+  }
+}
