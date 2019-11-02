@@ -1,5 +1,5 @@
 import React from 'react'
-import ParcelLogo from "../img/parcel-logo.png";
+import ParcelLogo from "../../img/parcel-logo.png";
 
 const Header = () => (
     <header>

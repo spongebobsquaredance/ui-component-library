@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import './scss/app.scss'
-import Header from './components/Header'
+import Header from './components/Header/Header'
 
 class HelloMessage extends React.Component {
   render() {
