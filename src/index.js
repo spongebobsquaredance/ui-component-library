@@ -1,16 +1,25 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import './scss/app.scss'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { ThemeProvider } from 'styled-components';
+
+import { GlobalStyles } from './GlobalStyles';
+import { themes } from './themes';
+
 import Header from './components/Header/Header'
 
 class HelloMessage extends React.Component {
   render() {
-    return <div>
-      <Header/>
-      <div className="container">
-        <h1>Hello {this.props.name}</h1>
-      </div>
-    </div>
+    return (
+      <ThemeProvider theme={themes.vintage}>
+        <GlobalStyles />
+        <div>
+          <Header/>
+          <div className="container">
+            <h1>Hello {this.props.name}</h1>
+          </div>
+        </div>
+      </ThemeProvider>
+    )
   }
 }
 
