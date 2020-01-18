@@ -1,5 +1,10 @@
-import React from 'react'
-import ParcelLogo from "../../img/parcel-logo.png";
+import React from 'react';
+import styled from 'styled-components';
+import ParcelLogo from '../../img/parcel-logo.png';
+
+const HeaderText = styled.h1`
+  color: ${p => p.theme.primaryTextColor};
+`
 
 const Header = () => (
     <header>
@@ -10,6 +15,7 @@ const Header = () => (
                 </a>
             </div>
         </nav>
+        <HeaderText>Some Test Text Here</HeaderText>
     </header>
 )
 
