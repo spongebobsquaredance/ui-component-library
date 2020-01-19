@@ -2,8 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 import ParcelLogo from '../../img/parcel-logo.png';
 
-const HeaderText = styled.h1`
-  color: ${p => p.theme.primaryTextColor};
+const HeaderOne = styled.h1`
+  color: ${p => p.theme.color.primary};
+  font-size: ${p => p.theme.fontSize.headerOne};
+`
+const HeaderTwo = styled.h2`
+  color: ${p => p.theme.color.primary};
+  font-size: ${p => p.theme.fontSize.headerTwo};
 `
 
 const Header = () => (
@@ -15,7 +20,8 @@ const Header = () => (
                 </a>
             </div>
         </nav>
-        <HeaderText>Some Test Text Here</HeaderText>
+        <HeaderOne>Some Test Text Here</HeaderOne>
+        <HeaderTwo>Header Two Sample Text</HeaderTwo>
     </header>
 )
 

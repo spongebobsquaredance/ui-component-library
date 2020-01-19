@@ -4,7 +4,7 @@ import { GlobalStyles } from '../src/GlobalStyles';
 import { themes } from '../src/themes';
 
 const ThemeDecorator = storyFn => (
-  <ThemeProvider theme={themes.vintage}>
+  <ThemeProvider theme={themes.eggplore}>
     <GlobalStyles />
     {storyFn()}
   </ThemeProvider>

@@ -10,7 +10,7 @@ import Header from './components/Header/Header'
 class HelloMessage extends React.Component {
   render() {
     return (
-      <ThemeProvider theme={themes.vintage}>
+      <ThemeProvider theme={themes.eggplore}>
         <GlobalStyles />
         <div>
           <Header/>
