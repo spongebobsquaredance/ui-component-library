@@ -47,6 +47,7 @@ export const themes = {
       accentGradientStart: '#cdddf4',
       accentGradientEnd: '#cdbafa'
     },
+    fontFamily: "'Open Sans', 'Helvetica Neue', Arial, sans-serif",
     fontSize: {
       // Headers
       headerOne: '34px',

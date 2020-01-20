@@ -3,6 +3,10 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: ${p => p.theme.fontFamily};
+  }
+  h1,
+  h2 {
+    font-weight: 700;
   }
 `
