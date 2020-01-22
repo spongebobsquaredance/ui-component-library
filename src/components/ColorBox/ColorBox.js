@@ -8,21 +8,25 @@ const Wrapper = styled.div`
   width: 160px;
 `
 const ColorContainer = styled.div`
-  background: ${p => p.theme.color.primary};
+  background: ${p => p.hexCode};
   border-radius: 12px 12px 0 0;
   height: 140px;
 `
+
 const HexContainer = styled.div`
   border-radius: 0 0 12px 12px;
+  color: ${p => p.theme.color.iconDark};
   font-size: 17px;
+  letter-spacing: 0.25px;
   line-height: 22px;
   padding: 13px 0;
   text-align: center;
+  text-transform: uppercase;
 `
 
 const ColorBox = ({hexCode}) => (
   <Wrapper>
-    <ColorContainer />
+    <ColorContainer hexCode={hexCode} />
     <HexContainer>{hexCode}</HexContainer>
   </Wrapper>
 )
