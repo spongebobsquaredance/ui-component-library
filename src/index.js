@@ -5,8 +5,8 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './GlobalStyles';
 import { themes } from './themes';
 
-import Header from './components/Header/Header'
-import OnboardingStats from './img/onboarding-stats.png'
+import Header from './components/Header/Header';
+import OnboardingStats from './img/onboarding-stats.png';
 
 class MainPage extends React.Component {
   render() {
