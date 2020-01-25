@@ -57,7 +57,7 @@ export const themes = {
 
       // Buttons
       button: '17px',
-      buttonSmall: '12px',
+      buttonSmall: '13px',
 
       // Caption
       caption: '12px',

@@ -5,7 +5,7 @@ export default { title: 'Button' };
 
 export const ButtonComponent = () => 
   <Button 
-    href="https://google.com"
-    title="Google"
-    buttonText="Subscribe!!"
+    href='https://google.com'
+    title='Google'
+    buttonText='Subscribe!!'
   />;
