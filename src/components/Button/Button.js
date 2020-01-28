@@ -34,13 +34,17 @@ const Link = styled.a`
              p.theme.color.backgroundLight :
              p.theme.color.accent};
   }
+  img {
+    padding-right: 8px;
+  }
 `
 
 const Button = ({
   href, 
   title, 
   small, 
-  ghost, 
+  ghost,
+  iconSrc,
   buttonText
 }) =>
   <Link 
@@ -48,6 +52,7 @@ const Button = ({
     title={title} 
     small={small} 
     ghost={ghost}>
+    {iconSrc ? <img src={iconSrc} alt="button icon" /> : ''}
     {buttonText}
   </Link>
 

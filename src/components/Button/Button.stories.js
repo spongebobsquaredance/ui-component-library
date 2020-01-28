@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from './Button';
 
+import iconSrc from '../../img/icon-plus.png';
+
 export default { title: 'Button' };
 
 const Default = () =>
@@ -35,9 +37,18 @@ const SmallGhost = () =>
     ghost
   />
 
+const WithIcon = () =>
+  <Button
+    href='https://google.com'
+    title='Google'
+    buttonText='Go to google.com'
+    iconSrc={iconSrc}
+  />
+
 export { 
   Default,
   Ghost,
   Small,
-  SmallGhost
+  SmallGhost,
+  WithIcon
 }
